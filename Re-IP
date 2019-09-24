@@ -1,0 +1,260 @@
+import sys
+import re
+from netaddr import *
+import pprint
+
+iplist = list()
+file = open ("ip.txt", 'r')
+for networ in file:
+    ip = IPNetwork(networ.strip())
+    for i in ip:
+        i = str(i)
+        if (re.match(".20.50.100" + '$',i)):
+            print "8.18.96.242"
+            iplist.append('8.18.96.242')
+        if (re.match("8.20.50.101" + '$',i)):
+            print "8.18.96.246"
+            iplist.append('8.18.96.246')
+        if (re.match("8.20.50.103" + '$',i)):
+            print "8.18.97.46"
+            iplist.append('8.18.97.46')
+        if (re.match("8.20.50.104" + '$',i)):
+            print "8.18.96.207"
+            iplist.append('8.18.96.207')
+        if (re.match("8.20.50.105" + '$',i)):
+            print "8.18.96.238"
+            iplist.append('8.18.96.238')
+        if (re.match("8.20.50.106" + '$',i)):
+            print "8.18.96.199"
+            iplist.append('8.18.96.199')
+        if (re.match("8.20.50.107" + '$',i)):
+            print "8.18.96.191"
+            iplist.append('8.18.96.191')
+        if (re.match("8.20.50.108" + '$',i)):
+            print "8.18.96.194"
+            iplist.append('8.18.96.194')
+        if (re.match("8.20.50.150" + '$',i)):
+            print "8.18.96.192"
+            iplist.append('8.18.96.192')
+        if (re.match("8.20.50.151" + '$',i)):
+            print "8.18.96.195"
+            iplist.append('8.18.96.195')
+        if (re.match("8.20.50.152" + '$',i)):
+            print "8.18.96.200"
+            iplist.append('8.18.96.200')
+        if (re.match("8.20.50.153" + '$',i)):
+            print "8.18.96.208"
+            iplist.append('8.18.96.208')
+        if (re.match("8.20.50.154" + '$',i)):
+            print "8.18.96.239"
+            iplist.append('8.18.96.239')
+        if (re.match("8.20.50.155" + '$',i)):
+            print "8.18.97.47"
+            iplist.append('8.18.97.47')
+        if (re.match("8.20.50.156" + '$',i)):
+            print "8.18.96.204"
+            iplist.append('8.18.96.204')
+        if (re.match("8.20.50.157" + '$',i)):
+            print "8.18.96.197"
+            iplist.append('8.18.96.197')
+        if (re.match("8.20.50.24" + '$',i)):
+            print "8.18.96.250"
+            iplist.append('8.18.96.250')
+        if (re.match("8.20.50.25" + '$',i)):
+            print "8.18.96.227"
+            iplist.append('8.18.96.227')
+        if (re.match("8.20.50.26" + '$',i)):
+            print "8.18.96.243"
+            iplist.append('8.18.96.243')
+        if (re.match("8.20.50.27" + '$',i)):
+            print "8.18.96.226"
+            iplist.append('8.18.96.226')
+        if (re.match("8.20.50.29" + '$',i)):
+            print "8.18.96.241"
+            iplist.append('8.18.96.241')
+        if (re.match("8.20.50.32" + '$',i)):
+            print "8.18.97.43"
+            iplist.append('8.18.97.43')
+        if (re.match("8.20.50.33" + '$',i)):
+            print "8.18.96.219"
+            iplist.append('8.18.96.219')
+        if (re.match("8.20.50.34" + '$',i)):
+            print "8.18.96.210"
+            iplist.append('8.18.96.210')
+        if (re.match("8.20.50.35" + '$',i)):
+            print "8.18.96.220"
+            iplist.append('8.18.96.220')
+        if (re.match("8.20.50.36" + '$',i)):
+            print "8.18.96.209"
+            iplist.append('8.18.96.209')
+        if (re.match("8.20.50.37" + '$',i)):
+            print "8.18.96.244"
+            iplist.append('8.18.96.244')
+        if (re.match("8.20.50.38" + '$',i)):
+            print "8.18.96.245"
+            iplist.append('8.18.96.245')
+        if (re.match("8.20.50.39" + '$',i)):
+            print "8.18.96.247"
+            iplist.append('8.18.96.247')
+        if (re.match("8.20.50.40" + '$',i)):
+            print "8.18.96.248"
+            iplist.append('8.18.96.248')
+        if (re.match("8.20.50.41" + '$',i)):
+            print "8.18.96.249"
+            iplist.append('8.18.96.249')
+        if (re.match("8.20.50.44" + '$',i)):
+            print "8.18.96.255"
+            iplist.append('8.18.96.255')
+        if (re.match("8.20.50.45" + '$',i)):
+            print "8.18.96.229"
+            iplist.append('8.18.96.229')
+        if (re.match("8.20.50.46" + '$',i)):
+            print "8.18.96.252"
+            iplist.append('8.18.96.252')
+        if (re.match("8.20.50.47" + '$',i)):
+            print "8.18.96.228"
+            iplist.append('8.18.96.228')
+        if (re.match("8.20.50.49" + '$',i)):
+            print "8.18.96.251"
+            iplist.append('8.18.96.251')
+        if (re.match("8.20.50.51" + '$',i)):
+            print "8.18.97.33"
+            iplist.append('8.18.97.33')
+        if (re.match("8.20.50.52" + '$',i)):
+            print "8.18.97.32"
+            iplist.append('8.18.97.32')
+        if (re.match("8.20.50.53" + '$',i)):
+            print "8.18.96.222"
+            iplist.append('8.18.96.222')
+        if (re.match("8.20.50.54" + '$',i)):
+            print "8.18.96.212"
+            iplist.append('8.18.96.212')
+        if (re.match("8.20.50.55" + '$',i)):
+            print "8.18.96.221"
+            iplist.append('8.18.96.221')
+        if (re.match("8.20.50.56" + '$',i)):
+            print "8.18.96.211"
+            iplist.append('8.18.96.211')
+        if (re.match("8.20.50.59" + '$',i)):
+            print "8.18.96.254"
+            iplist.append('8.18.96.254')
+        if (re.match("8.20.50.60" + '$',i)):
+            print "8.18.96.253"
+            iplist.append('8.18.96.253')
+        if (re.match("8.20.50.66" + '$',i)):
+            print "8.18.96.225"
+            iplist.append('8.18.96.225')
+        if (re.match("8.20.50.7" + '$',i)):
+            print "8.18.97.44"
+            iplist.append('8.18.97.44')
+        if (re.match("8.20.50.81" + '$',i)):
+            print "8.18.97.45"
+            iplist.append('8.18.97.45')
+        if (re.match("8.20.50.82" + '$',i)):
+            print "8.18.96.206"
+            iplist.append('8.18.96.206')
+        if (re.match("8.20.50.83" + '$',i)):
+            print "8.18.96.237"
+            iplist.append('8.18.96.237')
+        if (re.match("8.20.50.84" + '$',i)):
+            print "8.18.96.198"
+            iplist.append('8.18.96.198')
+        if (re.match("8.20.50.85" + '$',i)):
+            print "8.18.96.193"
+            iplist.append('8.18.96.193')
+        if (re.match("8.20.50.86" + '$',i)):
+            print "8.18.96.190"
+            iplist.append('8.18.96.190')
+        if (re.match("8.20.50.87" + '$',i)):
+            print "8.18.96.203"
+            iplist.append('8.18.96.203')
+        if (re.match("8.20.50.88" + '$',i)):
+            print "8.18.96.196"
+            iplist.append('8.18.96.196')
+        if (re.match("8.20.51.1" + '$',i)):
+            print "8.18.96.240"
+            iplist.append('8.18.96.240')
+        if (re.match("8.20.51.10" + '$',i)):
+            print "8.18.96.214"
+            iplist.append('8.18.96.214')
+        if (re.match("8.20.51.12" + '$',i)):
+            print "8.18.96.213"
+            iplist.append('8.18.96.213')
+        if (re.match("8.20.51.18" + '$',i)):
+            print "8.18.97.34"
+            iplist.append('8.18.97.34')
+        if (re.match("8.20.51.25" + '$',i)):
+            print "8.18.96.233"
+            iplist.append('8.18.96.233')
+        if (re.match("8.20.51.27" + '$',i)):
+            print "8.18.96.232"
+            iplist.append('8.18.96.232')
+        if (re.match("8.20.51.29" + '$',i)):
+            print "8.18.96.216"
+            iplist.append('8.18.96.216')
+        if (re.match("8.20.51.31" + '$',i)):
+            print "8.18.96.215"
+            iplist.append('8.18.96.215')
+        if (re.match("8.20.51.32" + '$',i)):
+            print "8.18.97.35"
+            iplist.append('8.18.97.35')
+        if (re.match("8.20.51.33" + '$',i)):
+            print "8.18.97.36"
+            iplist.append('8.18.97.36')
+        if (re.match("8.20.51.34" + '$',i)):
+            print "8.18.97.37"
+            iplist.append('8.18.97.37')
+        if (re.match("8.20.51.37" + '$',i)):
+            print "8.18.97.40"
+            iplist.append('8.18.97.40')
+        if (re.match("8.20.51.38" + '$',i)):
+            print "8.18.96.235"
+            iplist.append('8.18.96.235')
+        if (re.match("8.20.51.39" + '$',i)):
+            print "8.18.97.39"
+            iplist.append('8.18.97.39')
+        if (re.match("8.20.51.40" + '$',i)):
+            print "8.18.96.234"
+            iplist.append('8.18.96.234')
+        if (re.match("8.20.51.41" + '$',i)):
+            print "8.18.96.224"
+            iplist.append('8.18.96.224')
+        if (re.match("8.20.51.42" + '$',i)):
+            print "8.18.96.218"
+            iplist.append('8.18.96.218')
+        if (re.match("8.20.51.43" + '$',i)):
+            print "8.18.96.223"
+            iplist.append('8.18.96.223')
+        if (re.match("8.20.51.44" + '$',i)):
+            print "8.18.96.217"
+            iplist.append('8.18.96.217')
+        if (re.match("8.20.51.45" + '$',i)):
+            print "8.18.97.38"
+            iplist.append('8.18.97.38')
+        if (re.match("8.20.51.46" + '$',i)):
+            print "8.18.97.41"
+            iplist.append('8.18.97.41')
+        if (re.match("8.20.51.47" + '$',i)):
+            print "8.18.97.42"
+            iplist.append('8.18.97.42')
+        if (re.match("8.20.51.5" + '$',i)):
+            print "8.18.96.231"
+            iplist.append('8.18.96.231')
+        if (re.match("8.20.51.51" + '$',i)):
+            print "8.18.96.205"
+            iplist.append('8.18.96.205')
+        if (re.match("8.20.51.57" + '$',i)):
+            print "8.18.96.236"
+            iplist.append('8.18.96.236')
+        if (re.match("8.20.51.7" + '$',i)):
+            print "8.18.96.230"
+            iplist.append('8.18.96.230')
+        else:
+            continue        
+print "\nmerged IP\n"
+cidr = cidr_merge (iplist)
+for ipv in cidr:
+    print ipv    
+print  "\nshared oject group\n"
+for ipvv in cidr:
+    print ipvv
